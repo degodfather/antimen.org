@@ -1,0 +1,149 @@
+@import url('https://use.typekit.net/baz1roy.css');
+
+@import '~@eightshift/ui-components/dist/assets/style-editor.css';
+
+.esd-full-fixed {
+	position: fixed;
+	inset: 0;
+}
+
+:root {
+	--color-violet-50: oklch(.969 .016 293.756);
+	--color-gray-50: oklch(.985 .002 247.839);
+	--es-spacing: 0.25rem;
+	--global-colors-infinum: #6096B4;
+	--ifm-color-primary: #6096B4;
+	--ifm-color-primary-dark: #4b7a96;
+	--ifm-color-primary-darker: #446f88;
+	--ifm-color-primary-darkest: #325164;
+	--ifm-color-primary-light: #7ba8c1;
+	--ifm-color-primary-lighter: #88b2c9;
+	--ifm-color-primary-lightest: #afccdc;
+}
+
+.es\:bg-violet-50 {
+	background-color: var(--color-violet-50);
+}
+
+.es\:bg-gray-50 {
+	background-color: var(--color-gray-50);
+}
+
+.esd-hide-bg-on-hover.es\:bg-violet-50:hover,
+.esd-hide-bg-on-hover:hover .es\:bg-violet-50 {
+	background-color: color-mix(in oklab,var(--color-violet-50) 20%,transparent) !important;
+}
+
+.esd-hide-bg-on-hover.es\:bg-gray-50:hover,
+.esd-hide-bg-on-hover:hover .es\:bg-gray-50 {
+	background-color: color-mix(in oklab,var(--color-gray-50) 20%,transparent) !important;
+}
+
+.esd-white-space-pre {
+	white-space: break-spaces;
+}
+
+.esd-icon-showcase-button {
+	width: 3.25rem !important;
+	height: 3.25rem !important;
+
+}
+
+.esd-icon-showcase-button svg {
+	width: 1.5rem !important;
+	height: 1.5rem !important;
+}
+
+.esd-legacy-docs-iframe {
+	min-width: 64vw;
+
+	border: 1px solid #D1D5DB !important;
+	border-radius: 0.5rem !important;
+}
+
+.markdown .esd-showcase {
+	--ifm-list-left-padding: 0;
+	--ifm-list-margin: 0;
+	--ifm-list-paragraph-margin: 0;
+
+	ul, li {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.es:\w-full {
+	width: 100%;
+}
+
+.es:\w-fit {
+	width: fit-content;
+}
+
+.esd-showcase-w {
+	width: 26rem;
+}
+
+.esd-space-v > :not(:last-child) {
+	margin-bottom: 0.625rem !important;
+}
+
+.esd-btn-custom {
+	height: auto !important;
+	padding: 0.5rem 1rem !important;
+}
+
+/* Primary color #6096B4 theme overrides */
+.text-infinum,
+.hover\:text-infinum:hover,
+.group:hover .group-hover\:text-infinum,
+.navbar-sidebar__items .menu__link:hover,
+.navbar-sidebar__items .menu__link--active:not(.menu__link--sublist),
+section[class*=DocCategoryGeneratedIndexPage] article .card:hover,
+.table-of-contents__link--active,
+.breadcrumbs__item--active .breadcrumbs__link,
+.breadcrumbs__link:hover,
+.theme-doc-sidebar-container .menu__link:hover,
+.theme-doc-sidebar-container .menu__link--active,
+.theme-doc-sidebar-container .menu__caret:hover,
+.pagination-nav__label:hover:before,
+.pagination-nav__label:hover:after,
+.markdown a,
+.DocSearch-Modal .DocSearch-Hits .DocSearch-Hit .DocSearch-Hit-action:hover,
+.DocSearch-Modal .DocSearch-Hits .DocSearch-Hit[aria-selected=true] mark {
+	color: #6096B4 !important;
+}
+
+.DocSearch-Modal .DocSearch-Hits .DocSearch-Hit[aria-selected=true] mark {
+	filter: drop-shadow(0 0 .125rem rgba(96, 150, 180, 0.25)) !important;
+}
+
+.bg-infinum,
+.DocSearch-Modal .DocSearch-HitsFooter a:focus-visible {
+	background-color: #6096B4 !important;
+}
+
+.border-l-infinum,
+blockquote,
+.markdown details[open] summary:before {
+	border-left-color: #6096B4 !important;
+}
+
+.DocSearch-Modal .DocSearch-Form:focus-visible,
+.DocSearch-Modal .DocSearch-Hits .DocSearch-Hit:hover,
+.DocSearch-Modal .DocSearch-HitsFooter a:focus-visible {
+	border-color: #6096B4 !important;
+}
+
+.navbar__link--active {
+	border-top-color: #6096B4 !important;
+}
+
+.focus\:outline-infinum:focus {
+	outline-color: #6096B4 !important;
+}
+
+.DocSearch-Modal .DocSearch-Hits .DocSearch-Hit>a,
+.DocSearch-Modal .DocSearch-HitsFooter a:focus-visible {
+	outline-color: rgba(96, 150, 180, 0.75) !important;
+}
