@@ -3,13 +3,13 @@
 	"version": "9.2.1",
 	"description": "A documentation website for Eightshift open source projects.",
 	"author": {
-		"name": "Eightshift team",
-		"email": "team@eightshift.com",
-		"url": "https://eightshift.com/"
+		"name": "Antimen team",
+		"email": "arunharidas@gmail.com",
+		"url": "https://antimen.org/"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/infinum/eightshift-docs.git"
+		"url": "git+https://github.com/degodfather/antimen.org.git"
 	},
 	"keywords": [
 		"frontend",
@@ -21,7 +21,7 @@
 		"WordPress"
 	],
 	"bugs": {
-		"url": "https://github.com/infinum/eightshift-docs/issues"
+		"url": "https://github.com/degodfather/antimen.org/issues"
 	},
 	"scripts": {
 		"docusaurus": "docusaurus",
