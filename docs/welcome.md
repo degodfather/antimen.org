@@ -1,48 +1,17 @@
 ---
 id: welcome
-title: Welcome
+title: Judicial Officer Dies by Suicide Amid Alleged Harassment
 ---
 
-Eightshift Development Kit is a modern, developer-friendly solution that makes building large, feature-rich WordPress projects painless.
-It contains all the tools you need to start building a modern WordPress theme or plugin, using battle-tested front-end and back-end development tools and practices.
+### Judicial Officer Dies by Suicide Amid Alleged Harassment
 
-### Features
+**Delhi, May 2026** — Aman Kumar Sharma, a 30-year-old Judicial Officer serving as Secretary of the District Legal Services Authority (North-East District) at Karkardooma Courts, died by suicide on 2 May 2026. His body was found hanging in the bathroom of his residence in Delhi’s Safdarjung / Green Park area.<grok-card data-id="2c80a2" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card><grok-card data-id="d31f5a" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card>
 
-The Eightshift Development Kit provides you with a lot of useful features, so let's take a quick look at some of the core ones:
+According to his family, Sharma had been suffering mental harassment for two months from his wife Swati (also a judicial officer) and her sister Nidhi Malik (an IAS officer). The situation escalated during an argument where Swati allegedly threatened to call the police on Sharma’s father.
 
-- **Custom Block Editor blocks** - Using automatic block registration and attribute handling features, building dynamic Gutenberg blocks with the Eightshift Development Kit is a joy. We also provide an extensive library of blocks and components that you can use and customize in your projects.
-  - **Dynamic blocks** - The Eightshift Development Kit is focused on supporting dynamic blocks, a type of WordPress blocks that are rendered from attributes instead of being serialized as HTML. Dynamic blocks allow you more flexibility when developing and avoid issues with Gutenberg's validation, ensuring you can ship new features and update existing blocks in record time.
-  - **Components** - Extract commonly used parts into _components_. Manage attributes on the component level. Use powerful composition features to build blocks from multiple components, or even multiple instances of them without worrying about attribute registration. It's a game-changer.
-  - **The Manifest** - Every block and component has a `manifest.json` file, which is a single source of truth for metadata about your block.
-- **Sustainable coding practices** - All our code follows battle-tested programming practices.
-  - **OOP** - Object-oriented programming is at the core of the Development Kit. Extend our classes or replace them entirely. Need to build a new WP-CLI command? [There's an abstract class for that.](https://github.com/infinum/eightshift-libs/tree/develop/src/Cli)
-  - **DI** - Eightshift Development Kit ships with a dependency injection container set up out of the box.
-  - **Code style** - Linters for PHP, JavaScript and SCSS ship out of the box, helping you write better code. Also, all of our code [follows Eightshift Coding Standards](https://github.com/infinum/eightshift-coding-standards/) - consistency assured.
-  - **Unit tests** - We use Pest and Jest to run unit tests on our code, catching bugs early.
-  - **Great documentation** - Apart from this website, everything in the code is commented and covered with Docblocks.
-- **WP-CLI** - Eightshift Development Kit provides amazing WP-CLI tooling. Import blocks and components from our collection. Build custom commands with ease. Include Development Kit features at will.
-- **Frontend build processes** - Eightshift Development Kit comes with Webpack preconfigured. Tweak it to your needs or keep our defaults - it's up to you. Vendor prefixes? Polyfills? SCSS compilation? Asset minification? All taken care of!
-- **First-class CSS variables** - Forget about conditional classnames: build out CSS variables from attribute values and scope them to a particular block with almost no code.
-- **Cache busting** - Each time you build assets, we generate a new URL for each asset file. This means you'll never see the old cached version while developing or after pushing your code to production.
+**Key Highlight:**  
+Despite serious allegations of harassment and abetment of suicide by his wife and sister-in-law, **no action has been taken** against them so far. Police have registered an FIR, but as of now, neither Swati nor Nidhi Malik has been arrested.<grok-card data-id="de07d0" data-type="citation_card" data-plain-type="render_inline_citation" >https://timesofindia.indiatimes.com/india/delhi-judge-aman-kumar-sharma-found-hanging-police-say-death-by-suicide-in-safdarjung/articleshow/130717428.cms</grok-card>
 
-### Parts of the Development Kit
+**Tags:** `Judicial Officer Suicide` | `Domestic Harassment` | `Delhi Judiciary`
 
-Eightshift Development Kit consists of a few separate projects. It's useful to know what they are, especially if you're contributing to the Development Kit.
 
-#### Eightshift Libs - [docs](eightshift-libs) | [github](https://github.com/infinum/eightshift-libs)
-
-Eightshift Libs handles backend functionality and provides backend support for your projects. This includes abstract classes and interfaces for our core features, dependency injection, asset enqueuing, filter & actions and more.
-
-#### Eightshift Frontend Libs - [docs](eightshift-frontend-libs) | [github](https://github.com/infinum/eightshift-frontend-libs)
-
-Eightshift Frontend Libs houses our frontend code, including various helpers, JavaScript functionality, SCSS styles, and block and component defaults.
-
-#### Eightshift Frontend Tailwind Libs - [docs](tailwind/intro) | [github](https://github.com/infinum/eightshift-frontend-libs-tailwind)
-
-Eightshift Frontend Tailwind Libs houses our frontend code, including various helpers, JavaScript functionality, SCSS styles, and block and component defaults.
-
-#### Boilerplate
-
-We provide [boilerplates for themes](https://github.com/infinum/eightshift-boilerplate) and [plugins](https://github.com/infinum/eightshift-boilerplate-plugin/), so you can start building your project right away - without manually setting up the libraries above.
-
-The easiest way to set up the Development Kit is to use the `npx eightshift-create` command, which we'll go into further detail about in the following chapters.
