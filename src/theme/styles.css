@@ -2,6 +2,43 @@
 
 @import '~@eightshift/ui-components/dist/assets/style-editor.css';
 
+/* Restore Docusaurus heading typography after UI-components preflight reset. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--ifm-heading-font-family);
+	font-weight: var(--ifm-heading-font-weight);
+	line-height: var(--ifm-heading-line-height);
+	color: var(--ifm-heading-color);
+}
+
+h1 {
+	font-size: var(--ifm-h1-font-size);
+}
+
+h2 {
+	font-size: var(--ifm-h2-font-size);
+}
+
+h3 {
+	font-size: var(--ifm-h3-font-size);
+}
+
+h4 {
+	font-size: var(--ifm-h4-font-size);
+}
+
+h5 {
+	font-size: var(--ifm-h5-font-size);
+}
+
+h6 {
+	font-size: var(--ifm-h6-font-size);
+}
+
 .esd-full-fixed {
 	position: fixed;
 	inset: 0;
@@ -146,4 +183,25 @@ blockquote,
 .DocSearch-Modal .DocSearch-Hits .DocSearch-Hit>a,
 .DocSearch-Modal .DocSearch-HitsFooter a:focus-visible {
 	outline-color: rgba(96, 150, 180, 0.75) !important;
+}
+
+/* Hide footer logo */
+.footer__logo {
+	display: none !important;
+}
+
+/* Keep FAQ collapsibles stacked: question on top, answer below. */
+.markdown .myths-faq details {
+	display: block;
+	margin: 1rem 0;
+}
+
+.markdown .myths-faq details > summary {
+	display: block;
+	cursor: pointer;
+}
+
+.markdown .myths-faq details > *:not(summary) {
+	display: block;
+	margin-top: 0.5rem;
 }

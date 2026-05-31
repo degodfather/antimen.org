@@ -5,9 +5,9 @@ export const EsOsFreebies = (props) => {
 	return (
 		<CtaImageButton
 			{...props}
-			title='Find more libraries, tools, and design assets free for everyone to use.'
-			buttonLabel='Open-source freebies'
-			buttonUrl='https://infinum.com/open-source'
+			title='Learn about laws, policies, incidents, and social challenges affecting men and boys.'
+			buttonLabel='Contribute to the cause'
+			buttonUrl='https://github.com/degodfather/antimen.org'
 			imageUrl='/img/homepage/infinum-open-source.svg'
 		/>
 	);

@@ -22,56 +22,33 @@ module.exports = {
 	themeConfig: {
 		navbar: {
 			logo: {
-				alt: 'Eightshift DevKit Logo',
-				src: '/img/logo.svg',
+				alt: 'Antimen.org Logo',
+				src: '/img/antimen_logo_transparent.png',
 			},
 			items: [
 				{
-					to: 'docs/welcome',
-					activeBasePath: 'docs',
+					to: 'incidents/',
+					activeBasePath: 'incidents',
 					label: 'Incidents',
 					position: 'right',
 				},
+				
 				{
-					to: 'forms/welcome',
-					activeBasePath: 'forms',
-					label: 'Judgements',
-					position: 'right',
-				},
-				{
-					to: '/components/welcome',
-					activeBasePath: 'components',
+					to: '/laws/',
+					activeBasePath: 'laws',
 					label: 'Laws',
 					position: 'right',
 				},
 				{
-					to: '/playground/',
-					activeBasePath: 'playground',
+					to: '/myths/',
+					activeBasePath: 'myths',
 					label: 'Myths',
 					position: 'right',
 				},
 				{
-					to: '/blog',
-					activeBasePath: 'blog',
-					label: 'Resources',
-					position: 'right',
-				},
-				{
-					to: '/showcase',
-					activeBasePath: 'showcase',
-					label: 'News & Events',
-					position: 'right',
-				},
-				{
-					to: '/showcase',
-					activeBasePath: 'showcase',
-					label: 'About',
-					position: 'right',
-				},
-				{
-					to: '/showcase',
-					activeBasePath: 'showcase',
-					label: 'Take Action',
+					to: '/socialmedia/',
+					activeBasePath: 'socialmedia',
+					label: 'Social Media',
 					position: 'right',
 				},
 			],
@@ -82,39 +59,15 @@ module.exports = {
 					title: 'Community',
 					items: [
 						{
-							label: 'Facebook',
-							href: 'https://facebook.com/infinumcom',
-							icon: 'facebook',
+							label: 'GitHub',
+							href: 'https://github.com/degodfather/antimen.org',
+							icon: 'github',
 						},
-						{
-							label: 'Instagram',
-							href: 'https://instagram.com/infinumcom/',
-							icon: 'instagram',
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/infinum',
-							icon: 'twitter',
-						},
-						{
-							label: 'Clutch',
-							href: 'https://clutch.co/profile/infinum',
-							icon: 'clutch',
-						},
-						{
-							label: 'Dribbble',
-							href: 'https://dribbble.com/infinum',
-							icon: 'dribbble',
-						},
-						{
-							label: 'LinkedIn',
-							href: 'https://linkedin.com/company/infinum/',
-							icon: 'linkedin',
-						},
+						
 					],
 				},
 			],
-			copyright: 'Made with ❤️ by Infinum team.',
+			copyright: 'Made with ❤️ by Antimen.org team.',
 		},
 		algolia: {
 			appId: 'CWB1S6U3C4',
@@ -148,8 +101,94 @@ module.exports = {
 			'@docusaurus/preset-classic',
 			{
 				docs: {
+					path: 'incidents',
+					routeBasePath: 'incidents',
 					sidebarPath: require.resolve('./sidebars.js'),
 					sidebarCollapsible: true,
+					sidebarItemsGenerator: async ({defaultSidebarItemsGenerator, ...args}) => {
+						const items = await defaultSidebarItemsGenerator(args);
+						const docsById = new Map(args.docs.map((doc) => [doc.id, doc]));
+
+						const isYearCategory = (item) => {
+							if (item.type !== 'category' || typeof item.label !== 'string') {
+								return false;
+							}
+
+							return /^\d{4}$/.test(item.label);
+						};
+
+						const getDocDateTimestamp = (item) => {
+							if (item.type !== 'doc') {
+								return null;
+							}
+
+							const dateValue = docsById.get(item.id)?.frontMatter?.date;
+							if (!dateValue) {
+								return null;
+							}
+
+							const parsedTimestamp = Date.parse(String(dateValue));
+							return Number.isNaN(parsedTimestamp) ? null : parsedTimestamp;
+						};
+
+						const getItemSortKey = (item) => {
+							if (item.type === 'doc') {
+								return item.id ?? item.label ?? '';
+							}
+
+							if (item.type === 'category') {
+								return item.label ?? '';
+							}
+
+							return item.label ?? item.href ?? '';
+						};
+
+						const sortCategoryItemsDescending = (item) => {
+							if (item.type !== 'category' || !Array.isArray(item.items)) {
+								return item;
+							}
+
+							const sortedItems = item.items
+								.map(sortCategoryItemsDescending)
+								.sort((a, b) => {
+									const aDate = getDocDateTimestamp(a);
+									const bDate = getDocDateTimestamp(b);
+
+									if (aDate !== null || bDate !== null) {
+										if (aDate === null) {
+											return 1;
+										}
+
+										if (bDate === null) {
+											return -1;
+										}
+
+										if (aDate !== bDate) {
+											return bDate - aDate;
+										}
+									}
+
+									return getItemSortKey(b).localeCompare(getItemSortKey(a), undefined, {
+										numeric: true,
+										sensitivity: 'base',
+									});
+								});
+
+							return {
+								...item,
+								items: sortedItems,
+							};
+						};
+
+						const yearItems = items
+							.filter(isYearCategory)
+							.map(sortCategoryItemsDescending)
+							.sort((a, b) => Number(b.label) - Number(a.label));
+
+						const nonYearItems = items.filter((item) => !isYearCategory(item));
+
+						return [...yearItems, ...nonYearItems];
+					},
 				},
 				gtag: {
 					trackingID: 'GTM-P5GG5DH',
@@ -189,10 +228,19 @@ module.exports = {
 		[
 			'@docusaurus/plugin-content-docs',
 			{
-				id: 'ui-components',
-				path: 'ui-components',
-				routeBasePath: 'components',
-				sidebarPath: require.resolve('./sidebars-components.js'),
+				id: 'laws',
+				path: 'laws',
+				routeBasePath: 'laws',
+				sidebarPath: require.resolve('./sidebars-laws.js'),
+			},
+		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'myths',
+				path: 'myths',
+				routeBasePath: 'myths',
+				sidebarPath: require.resolve('./sidebars-myths.js'),
 			},
 		],
 		'es-text-loader',

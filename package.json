@@ -25,7 +25,7 @@
 	},
 	"scripts": {
 		"docusaurus": "docusaurus",
-		"start": "docusaurus start",
+		"start": "docusaurus start --no-open",
 		"build": "docusaurus build",
 		"deploy": "docusaurus deploy",
 		"serve": "docusaurus serve",
