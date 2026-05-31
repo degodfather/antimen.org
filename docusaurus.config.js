@@ -54,7 +54,7 @@ module.exports = {
 					position: 'right',
 				},
 				{
-					to: 'https://github.com/degodfather/antimen.org/issues',
+					to: 'https://github.com/degodfather/antimen.org/discussions',
 					activeBasePath: 'reportincident',
 					label: 'Report an Incident',
 					position: 'right',
