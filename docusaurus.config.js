@@ -11,6 +11,8 @@ module.exports = {
 	favicon: '/img/favicon.png',
 	organizationName: 'infinum',
 	projectName: 'eightshift-docs',
+	onBrokenLinks: 'warn',
+	onBrokenMarkdownLinks: 'warn',
 	staticDirectories: ['static'],
 	scripts: [
 		{
