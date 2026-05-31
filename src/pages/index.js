@@ -21,8 +21,7 @@ export default function Home() {
 			<Hero
 				title='Justice for Men. Fairness for All.'
 				subtitle='
-India’s dedicated platform against systemic discrimination and legal terrorism targeting men. We document false cases, biased judgments, and anti-male laws, while equipping citizens with facts, arguments, and resources to fight gender injustice.
-Because equality must be equal.'
+A community-driven, open-source platform documenting laws, policies, court decisions, and incidents that impact men and boys in India. Our mission is to provide facts, evidence, and educational resources that promote equal treatment under the law and informed debate on gender issues. Because equality should apply to everyone.'
 				buttonLabel='Get started'
 				buttonUrl='/incidents'
 				imageUrl='/img/homepage/man-logo.png'

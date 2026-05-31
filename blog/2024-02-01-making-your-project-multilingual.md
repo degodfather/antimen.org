@@ -115,4 +115,4 @@ Internationalization (_I18n_) and Localization (_L10n_) are very broad topics, s
 If you wish to know about the core I18n functionalities, or a bit more about how it is used in the Eightshift DevKit, here are a few resources which you may find interesting:
 - [WordPress Codex - I18n for WordPress Developers](https://codex.wordpress.org/I18n_for_WordPress_Developers)
 - [Eightshift Development kit documentation - Tips & Tricks](https://eightshift.com/docs/basics/tips-tricks/#internationalization-i18n-and-localization-l10n)
-- [Infinum WordPress Handbook - Localization](https://infinum.com/handbook/wordpress/translations/localization)
+- [Infinum WordPress Handbook - Localization](https://antimen.org/handbook/wordpress/translations/localization)

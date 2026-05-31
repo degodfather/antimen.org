@@ -54,9 +54,21 @@ module.exports = {
 					position: 'right',
 				},
 				{
+					to: 'https://github.com/degodfather/antimen.org/issues',
+					activeBasePath: 'reportincident',
+					label: 'Report an Incident',
+					position: 'right',
+				},
+				{
 					to: 'https://www.saveindianfamily.org/india/donate/',
 					activeBasePath: 'donate',
-					label: 'Take Action',
+					label: 'Donate',
+					position: 'right',
+				},
+				{
+					to: 'https://github.com/degodfather/antimen.org',
+					activeBasePath: 'opensource',
+					label: 'Open Source',
 					position: 'right',
 				},
 			],

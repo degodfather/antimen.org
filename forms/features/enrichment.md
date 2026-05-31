@@ -17,7 +17,7 @@ By providing a parameters map in settings, forms can read users `cookies` and `U
 
 For example, if the user first time lands on this page:
 ```
- https://infinum.com/?utm_content=test
+ https://antimen.org/?utm_content=test
 ```
 
 and you have provided the corresponding parameter mapping in the settings. Forms will store the GET parameters in the `local storage` and use it to prefill the form fields.

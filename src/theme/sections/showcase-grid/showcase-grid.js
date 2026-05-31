@@ -16,7 +16,7 @@ export default function ShowcaseGrid(props) {
 	const headingSubtitle = privateType ? "Follow those who speak the truth." : 'Follow those who speak the truth.';
 	const ctaTitle = privateType ? "Let's get in touch" : (<span>Want to add your <br /> project to the list?</span>);
 	const ctaSubtitle = privateType ? 'Contact us' : 'Open an issue on GitHub';
-	const ctaUrl = privateType ? 'https://infinum.com/contact/' : 'https://github.com/infinum/eightshift-docs/issues';
+	const ctaUrl = privateType ? 'https://antimen.org/' : 'https://github.com/infinum/eightshift-docs/issues';
 
 	const privateData = [
 		{

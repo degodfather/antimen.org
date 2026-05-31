@@ -135,6 +135,4 @@ wp_reset_postdata();
 return $postData;
 ```
 
-## Best practices for queries
 
-It’s important to have query optimisation in mind. Some queries may be a lot slower and you have to see if there is any way to follow the [best practices for database queries](https://infinum.com/handbook/wordpress/coding-standards/php-coding-standards/database-queries).

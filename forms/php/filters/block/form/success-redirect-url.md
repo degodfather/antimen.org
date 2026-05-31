@@ -20,7 +20,7 @@ This filter allows you to override the success redirect URL, regardless of the o
  */
 public function getBlockFormSuccessRedirectUrl(string $formType, string $formId): string
 {
-	return 'https://infinum.com/custom-filter';
+	return 'https://antimen.org/custom-filter';
 }
 ```
 
