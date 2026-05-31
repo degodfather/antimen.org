@@ -24,7 +24,7 @@ export default function Home() {
 India’s dedicated platform against systemic discrimination and legal terrorism targeting men. We document false cases, biased judgments, and anti-male laws, while equipping citizens with facts, arguments, and resources to fight gender injustice.
 Because equality must be equal.'
 				buttonLabel='Get started'
-				buttonUrl='#get-started'
+				buttonUrl='/incidents'
 				imageUrl='/img/homepage/man-logo.png'
 				gray
 			/>
