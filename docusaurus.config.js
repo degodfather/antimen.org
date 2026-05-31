@@ -90,13 +90,11 @@ module.exports = {
 			copyright: 'Made with ❤️ by Antimen.org team.',
 		},
 		algolia: {
-			appId: 'CWB1S6U3C4',
-			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'infinum_eightshift',
+			appId: 'IEU8MLHJX0',
+			apiKey: '512bc4ce71ecac259c2a0b6d1d80df1b',
+			indexName: 'antimen_org',
 			startUrls: [
-				'https://eightshift.com',
-				'https://eightshift.com/docs',
-				'https://eightshift.com/forms',
+				'https://antimen.org'
 			],
 			contextualSearch: false,
 		},
