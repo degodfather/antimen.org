@@ -3,14 +3,14 @@ const { themes } = require('prism-react-renderer');
 const darkTheme = themes.dracula;
 
 module.exports = {
-	title: 'Eightshift Development kit',
+	title: 'antimen.org | Men\'s Civil Rights and Advocacy',
 	tagline:
 		'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
-	url: 'https://eightshift.com',
+	url: 'https://antimen.org',
 	baseUrl: '/',
 	favicon: '/img/favicon.png',
-	organizationName: 'infinum',
-	projectName: 'eightshift-docs',
+	organizationName: 'antimen',
+	projectName: 'antimen_web',
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
 	staticDirectories: ['static'],
