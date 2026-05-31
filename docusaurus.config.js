@@ -53,6 +53,12 @@ module.exports = {
 					label: 'Social Media',
 					position: 'right',
 				},
+				{
+					to: 'https://www.saveindianfamily.org/india/donate/',
+					activeBasePath: 'donate',
+					label: 'Take Action',
+					position: 'right',
+				},
 			],
 		},
 		footer: {

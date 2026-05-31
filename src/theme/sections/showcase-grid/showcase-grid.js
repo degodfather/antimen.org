@@ -64,6 +64,12 @@ export default function ShowcaseGrid(props) {
 			desc: 'Instagram account of Save Indian Family Foundation Pune.',
 			link: 'https://www.instagram.com/siff_pune/',
 		},
+		{
+			image: useBaseUrl('https://pbs.twimg.com/profile_images/1870219159017263104/RR7C9wsI_400x400.jpg'),
+			label: 'IsserHarel (Trump ka Parivaar)',
+			desc: 'X account of IsserHarel (Trump ka Parivaar).',
+			link: 'https://x.com/IsserHarrel',
+		},
 		
 	];
 
