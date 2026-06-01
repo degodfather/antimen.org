@@ -2,20 +2,23 @@
 
 title: Supreme Court Dismisses Plea Seeking Gender-Neutral Divorce Rights Under Hindu Marriage Act
 description: A PIL seeking equal divorce rights for husbands and wives under the Hindu Marriage Act was dismissed by the Supreme Court.
+image: /img/incidents/supreme-court-dismisses-plea-seeking-gender-neutral-divorce-rights-under-hindu-marriage-act.png
+date: 2026-05-11
+slug: /2026/supreme-court-dismisses-plea-seeking-gender-neutral-divorce-rights-under-hindu-marriage-act
 tags:
     - Hindu Marriage Act
     - Divorce Laws
     - Gender Bias
     - Family Law
     - Supreme Court
-image: /img/incidents/supreme-court-dismisses-plea-seeking-gender-neutral-divorce-rights-under-hindu-marriage-act.png
-date: 2026-05-11
-slug: /2026/supreme-court-dismisses-plea-seeking-gender-neutral-divorce-rights-under-hindu-marriage-act
+
 ---
 
 # Supreme Court Dismisses Plea Seeking Gender-Neutral Divorce Rights Under Hindu Marriage Act
 
 ![](/img/incidents/supreme-court-dismisses-plea-seeking-gender-neutral-divorce-rights-under-hindu-marriage-act.png)
+
+**11 May 2026** 
 
 The Supreme Court dismissed a Public Interest Litigation (PIL) filed by Jitendra Singh challenging Section 13(2)(iii) of the Hindu Marriage Act, a provision that grants a specific divorce remedy only to wives.
 
