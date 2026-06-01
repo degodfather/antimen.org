@@ -264,6 +264,7 @@ module.exports = {
 			},
 		],
 		'es-text-loader',
+		require.resolve('./plugins/incidents-data'),
 	],
 	customFields: {
 		keywords: [
