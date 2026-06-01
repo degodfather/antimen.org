@@ -8,6 +8,8 @@ tags:
     - Divorce
     - Parental Alienation
 date: 2026-05-16
+slug: /incidents/2026/jayam-ravi-announces-indefinitecareer-break-amid-divorce-and-child-access-dispute
+
 ---
 
 # Jayam Ravi Takes Indefinite Break from Cinema Amid Divorce and Child Access Disputes

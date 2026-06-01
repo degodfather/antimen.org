@@ -8,6 +8,8 @@ tags:
     - Kerala
     - Child Welfare
 date: 2026-05-31 
+slug: /incidents/2026/kerala-toddler-death-raises-questions-about-custody-assumptions
+
 
 ---
 
