@@ -2,6 +2,7 @@
 
 title: Jayam Ravi Announces indefiniteCareer break Amid Divorce and Child Access Dispute
 description: Tamil actor Jayam Ravi says he will not return to acting until he secures a divorce and regains access to his children.
+image: /img/incidents/jayamravi.png
 tags:
     - Child Custody
     - Fathers Rights

@@ -23,6 +23,7 @@ module.exports = {
 		},
 	],
 	themeConfig: {
+		image: '/img/antimen_logo_transparent.png',
 		metadata: [
 			{
 				name: 'robots',

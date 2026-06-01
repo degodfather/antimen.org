@@ -3,6 +3,8 @@ title: 12-Year-Old Boy Booked Under POCSO After 17-Year-Old Girl Delivers Baby i
 date: 2022-04-22
 slug: /2022/12-year-old-boy-booked-under-pocso-after-17-year-old-girl-delivers-baby-in-tamil-nadu
 excerpt: In a rare and concerning case from Thanjavur, Tamil Nadu, a 12-year-old boy has been detained under the POCSO Act after his 17-year-old girlfriend gave birth to a child.
+description: A 12-year-old boy in Tamil Nadu was booked under POCSO after a 17-year-old girl delivered a baby, raising legal and child protection concerns.
+image: /img/antimen_logo_transparent.png
 
 ---
 

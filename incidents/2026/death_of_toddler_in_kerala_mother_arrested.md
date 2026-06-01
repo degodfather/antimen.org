@@ -2,6 +2,7 @@
 
 title: Kerala Toddler Death Raises Questions About Custody Assumptions
 description: The death of a 1.5-year-old boy in Kerala has reignited concerns about custody decisions based on gender assumptions.
+image: /img/incidents/toddler_death_kerala.png
 tags:
     - Child Custody
     - Fathers Rights

@@ -2,6 +2,8 @@
 title: Husband's Maintenance Duty Continues After Death, Widow Can Claim From Father-in-Law
 date: 2026-04-01
 excerpt: The Allahabad High Court has ruled that a widowed daughter-in-law can claim maintenance from her father-in-law under Hindu law if she is unable to maintain herself.
+description: The Allahabad High Court ruled that a widowed daughter-in-law can claim maintenance from her father-in-law when she cannot maintain herself.
+image: /img/antimen_logo_transparent.png
 tags:
     - Maintenance
     - Alimony

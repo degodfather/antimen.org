@@ -70,6 +70,12 @@ export default function ShowcaseGrid(props) {
 			desc: 'X account of IsserHarel (Trump ka Parivaar).',
 			link: 'https://x.com/IsserHarrel',
 		},
+		{
+			image: useBaseUrl('https://pbs.twimg.com/profile_images/1878097626895130625/Uwmxta2k_400x400.jpg'),
+			label: 'SKrishnaVijay',
+			desc: 'X account of SKrishnaVijay.',
+			link: 'https://x.com/SKrishnaVijay',
+		},
 		
 	];
 
