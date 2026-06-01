@@ -11,9 +11,7 @@ function Footer() {
 			<>
 				Made with ❤️ by{' '}
 				<a href='https://github.com/degodfather/antimen.org/graphs/contributors'>
-					Antimen.org
-				</a>{' '}
-				team.
+					Antimen.org team.</a>{' '} Contributed by volunteers from around the world.
 			</>
 		),
 	};
