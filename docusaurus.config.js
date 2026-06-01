@@ -126,6 +126,7 @@ module.exports = {
 					routeBasePath: 'incidents',
 					sidebarPath: require.resolve('./sidebars.js'),
 					sidebarCollapsible: true,
+					sidebarCollapsed: false,
 					sidebarItemsGenerator: async ({defaultSidebarItemsGenerator, ...args}) => {
 						const items = await defaultSidebarItemsGenerator(args);
 						const docsById = new Map(args.docs.map((doc) => [doc.id, doc]));
