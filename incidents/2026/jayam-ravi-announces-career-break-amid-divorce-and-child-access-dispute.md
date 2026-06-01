@@ -42,3 +42,7 @@ This is not only harmful to fathers—it can also be harmful to children who are
 A system that allows one parent to unilaterally restrict access to children for years is failing both fathers and children. Custody and visitation laws should ensure that children maintain meaningful relationships with both parents, and courts should treat denial of access as a serious issue rather than a routine consequence of separation.
 
 Children deserve two parents whenever possible, not one parent with the power to decide whether the other may participate in their lives.
+
+--- 
+
+[Jayam Ravi Takes Indefinite Break from Cinema Amid Divorce and Custody Battle](https://www.theweek.in/news/entertainment/2026/05/16/wont-act-until-i-get-my-divorce-tamil-actor-ravi-mohan-breaks-down-in-front-of-press-as-he-opens-up-on-emotional-turmoil.html)
