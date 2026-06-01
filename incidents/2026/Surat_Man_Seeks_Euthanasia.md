@@ -2,7 +2,7 @@
 title: Surat Man Seeks Euthanasia Permission Citing Mental, Legal & Financial Harassment by Wife
 date: 2026-05-30
 excerpt: A man from Surat has submitted a plea to the District Collector seeking permission for euthanasia, alleging severe harassment by his wife and her family through repeated complaints, maintenance cases, and domestic violence proceedings.
-slug: /incidents/2026/surat-man-seeks-euthanasia-permission-citing-mental-legal-and-financial-harassment-by-wife
+slug: /2026/surat-man-seeks-euthanasia-permission-citing-mental-legal-and-financial-harassment-by-wife
 
 ---
 

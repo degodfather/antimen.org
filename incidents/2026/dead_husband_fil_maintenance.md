@@ -5,7 +5,7 @@ excerpt: The Allahabad High Court has ruled that a widowed daughter-in-law can c
 tags:
     - Maintenance
     - Alimony
-slug: /incidents/2026/husbands-maintenance-duty-continues-after-death-widow-can-claim-from-father-in-law
+slug: /2026/husbands-maintenance-duty-continues-after-death-widow-can-claim-from-father-in-law
 
 ---
 

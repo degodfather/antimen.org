@@ -1,6 +1,6 @@
 ---
 title: "Atul Subhash Suicide: Software Engineer Blames Wife, Family & Judicial System"
-slug: /incidents/2024/atul-subhash-suicide-software-engineer-blames-wife-family-and-judicial-system
+slug: /2024/atul-subhash-suicide-software-engineer-blames-wife-family-and-judicial-system
 description: Bengaluru software engineer Atul Subhash died by suicide in December 2024, leaving a 24-page note alleging extortion and legal harassment.
 date: 2024-12-09
 tags: ['suicide', 'family-court-bias', 'alimony-extortion', 'bengaluru', 'child-custody']
