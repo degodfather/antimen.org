@@ -87,7 +87,7 @@ module.exports = {
 					],
 				},
 			],
-			copyright: 'Made with ❤️ by Antimen.org team.',
+			copyright: 'Made with ❤️ by <a href="https://github.com/degodfather/antimen.org/graphs/contributors">Antimen.org</a> team.',
 		},
 		algolia: {
 			appId: 'IEU8MLHJX0',
@@ -227,6 +227,8 @@ module.exports = {
 					postsPerPage: 9,
 				},
 				sitemap: {
+					filename: 'sitemap.xml',
+					lastmod: 'date',
 					changefreq: 'weekly',
 					priority: 0.5,
 				},
