@@ -26,7 +26,7 @@
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start --no-open",
-		"build": "docusaurus build",
+		"build": "docusaurus build && node scripts/sync-sitemap.js",
 		"deploy": "docusaurus deploy",
 		"serve": "docusaurus serve",
 		"clear": "docusaurus clear"

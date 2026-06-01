@@ -8,6 +8,7 @@ module.exports = {
 		'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
 	url: 'https://antimen.org',
 	baseUrl: '/',
+	noIndex: false,
 	favicon: '/img/favicon.png',
 	organizationName: 'antimen',
 	projectName: 'antimen_web',
@@ -22,6 +23,12 @@ module.exports = {
 		},
 	],
 	themeConfig: {
+		metadata: [
+			{
+				name: 'robots',
+				content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+			},
+		],
 		navbar: {
 			logo: {
 				alt: 'Antimen.org Logo',
@@ -83,7 +90,6 @@ module.exports = {
 							href: 'https://github.com/degodfather/antimen.org',
 							icon: 'github',
 						},
-						
 					],
 				},
 			],
@@ -93,9 +99,6 @@ module.exports = {
 			appId: 'IEU8MLHJX0',
 			apiKey: '512bc4ce71ecac259c2a0b6d1d80df1b',
 			indexName: 'antimen_org_ieu8mlhjx0_articles',
-			startUrls: [
-				'https://antimen.org'
-			],
 			contextualSearch: false,
 		},
 		prism: {
@@ -218,14 +221,7 @@ module.exports = {
 						require.resolve('./src/theme/styles.css'),
 					],
 				},
-				blog: {
-					blogTitle: 'Tutorials and articles about Eightshift development kit',
-					blogDescription:
-						'Tutorials and articles about Eightshift development kit',
-					blogSidebarTitle: 'Latest posts',
-					showReadingTime: true,
-					postsPerPage: 9,
-				},
+			
 				sitemap: {
 					filename: 'sitemap.xml',
 					lastmod: 'date',
@@ -236,15 +232,7 @@ module.exports = {
 		],
 	],
 	plugins: [
-		[
-			'@docusaurus/plugin-content-docs',
-			{
-				id: 'forms',
-				path: 'forms',
-				routeBasePath: 'forms',
-				sidebarPath: require.resolve('./sidebars-forms.js'),
-			},
-		],
+	
 		[
 			'@docusaurus/plugin-content-docs',
 			{

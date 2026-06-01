@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+User-agent: Algolia Crawler
+Allow: /
+
+Host: antimen.org
 Sitemap: https://antimen.org/sitemap.xml

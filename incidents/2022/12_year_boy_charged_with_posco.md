@@ -1,6 +1,7 @@
 ---
 title: 12-Year-Old Boy Booked Under POCSO After 17-Year-Old Girl Delivers Baby in Tamil Nadu
 date: 2026-05-30
+slug: /2022/12_year_boy_charged_with_posco
 excerpt: In a rare and concerning case from Thanjavur, Tamil Nadu, a 12-year-old boy has been detained under the POCSO Act after his 17-year-old girlfriend gave birth to a child.
 
 ---
