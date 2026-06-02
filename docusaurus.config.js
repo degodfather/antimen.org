@@ -116,7 +116,7 @@ module.exports = {
 				autoCollapseCategories: true,
 			},
 		},
-		trailingSlash: false,
+		trailingSlash: true,
 	},
 	presets: [
 		[
