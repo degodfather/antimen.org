@@ -1,5 +1,5 @@
 ---
-slug: /dv
+slug: /dv/
 title: Protection of Women from Domestic Violence Act 2005
 description: Analysis of the gender-specific provisions of the Domestic Violence Act.
 tags:

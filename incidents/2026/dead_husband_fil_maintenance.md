@@ -7,7 +7,7 @@ image: /img/antimen_logo_transparent.png
 tags:
     - Maintenance
     - Alimony
-slug: /2026/husbands-maintenance-duty-continues-after-death-widow-can-claim-from-father-in-law
+slug: /2026/husbands-maintenance-duty-continues-after-death-widow-can-claim-from-father-in-law/
 
 ---
 

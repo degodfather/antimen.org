@@ -9,7 +9,7 @@ tags:
     - Kerala
     - Child Welfare
 date: 2026-05-31 
-slug: /2026/kerala-toddler-death-raises-questions-about-custody-assumptions
+slug: /2026/kerala-toddler-death-raises-questions-about-custody-assumptions/
 
 
 ---

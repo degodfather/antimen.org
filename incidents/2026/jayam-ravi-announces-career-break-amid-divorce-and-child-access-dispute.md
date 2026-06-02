@@ -9,7 +9,7 @@ tags:
     - Divorce
     - Parental Alienation
 date: 2026-05-16
-slug: /2026/jayam-ravi-announces-indefinitecareer-break-amid-divorce-and-child-access-dispute
+slug: /2026/jayam-ravi-announces-indefinitecareer-break-amid-divorce-and-child-access-dispute/
 
 ---
 

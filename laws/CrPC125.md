@@ -1,5 +1,5 @@
 ---
-slug: /CrPC125
+slug: /CrPC125/
 title: Gender-Specific Maintenance Provisions
 description: Maintenance provisions that primarily impose obligations on husbands.
 tags:
