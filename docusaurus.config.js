@@ -99,7 +99,7 @@ module.exports = {
 		algolia: {
 			appId: 'IEU8MLHJX0',
 			apiKey: '512bc4ce71ecac259c2a0b6d1d80df1b',
-			indexName: 'antimen_org_ieu8mlhjx0_articles',
+			indexName: 'antimen_org_ieu8mlhjx0_pages',
 			contextualSearch: false,
 		},
 		prism: {
