@@ -46,3 +46,5 @@ Protecting children requires judging parents as individuals—not presuming that
 
 [Mother ‘Kills’ Teen Son For Opposing Her Affair, Files Missing Complaint; Truth Emerges After 18 Months](https://www.news18.com/india/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months-shil-ws-el-10123906.html)
 
+[Teen Objects To Mother's Affair, She Kills Him, Files Missing Complaint](https://www.ndtv.com/andhra-pradesh-news/andhra-woman-kills-son-after-he-opposes-her-affair-files-fake-missing-complaint-11578885)
+
