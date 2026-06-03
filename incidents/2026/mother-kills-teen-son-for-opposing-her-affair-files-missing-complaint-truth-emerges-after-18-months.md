@@ -5,6 +5,7 @@ description: A teenage boy was allegedly murdered by his mother and her lover af
 image: /img/incidents/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months.png
 slug: /2026/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months/
 date: 2026-06-02
+author: Arun Joseph
 tags:
     - Child Welfare
     - Child Abuse
