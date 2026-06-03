@@ -17,7 +17,7 @@ tags:
 
 ## Incident
 
-**02 June 2026, Andra Pradesh** A shocking case from Andhra Pradesh's Kurnool district came to light after investigators uncovered the alleged murder of a teenage boy who had been missing for nearly 18 months.
+**02 June 2026, Andhra Pradesh** A shocking case from Andhra Pradesh's Kurnool district came to light after investigators uncovered the alleged murder of a teenage boy who had been missing for nearly 18 months.
 
 According to police, the boy's mother allegedly killed him with the assistance of her lover after he opposed their relationship. Investigators allege that the body was secretly buried and that the mother subsequently filed a missing person's complaint in an attempt to divert suspicion.
 
