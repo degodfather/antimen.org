@@ -1,6 +1,6 @@
 ---
 
-title: Andhra Pradesh Mother Allegedly Killed Son and Filed Missing Complaint to Conceal Crime
+title: Mother Kills Teen Son For Opposing Her Affair, Files Missing Complaint; Truth Emerges After 18 Months
 description: A teenage boy was allegedly murdered by his mother and her lover after opposing their relationship. The crime remained hidden for 18 months before investigators uncovered the truth.
 image: /img/incidents/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months.png
 slug: /2026/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months/
