@@ -1,7 +1,7 @@
 ---
 
 title: Woman, Lover Accused Of Killing Her 5-Year-Old Daughter In Bengaluru
-description: A five-year-old girl was allegedly murdered by her mother and her lover in Bengaluru, marking the second such case reported within a month.
+description: A five-year-old girl was allegedly murdered by her mother and her lover in Bengaluru, marking the third such case reported within a week.
 image: /img/incidents/woman-lover-accused-of-killing-her-5-year-old-daughter-in-bengaluru.png
 slug: /2026/woman-lover-accused-of-killing-her-5-year-old-daughter-in-bengaluru/
 date: 2026-06-06
