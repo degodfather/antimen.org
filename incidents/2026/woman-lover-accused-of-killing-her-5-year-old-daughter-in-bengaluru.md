@@ -29,7 +29,12 @@ Police arrested Mohan, the mother's alleged lover, while Priyanka remains abscon
 
 ## A Disturbing Pattern
 
-This is the second reported case within 30 days in which a child was allegedly killed by a mother and her romantic partner.
+This is the third reported case within 1 week in which a child was allegedly killed by a mother and her romantic partner.
+
+- [Andhra Pradesh Mother Allegedly Killed Son and Filed Missing Complaint to Conceal Crime](https://antimen.org/incidents/2026/mother-kills-teen-son-for-opposing-her-affair-files-missing-complaint-truth-emerges-after-18-months/)
+- [Kerala Toddler Death Raises Questions About Custody Assumptions](https://antimen.org/incidents/2026/kerala-toddler-death-raises-questions-about-custody-assumptions/)
+
+
 
 ## Conclusion
 
