@@ -5,11 +5,12 @@ description: A five-year-old girl was allegedly murdered by her mother and her l
 image: /img/incidents/woman-lover-accused-of-killing-her-5-year-old-daughter-in-bengaluru.png
 slug: /2026/woman-lover-accused-of-killing-her-5-year-old-daughter-in-bengaluru/
 date: 2026-06-06
+author: Arun Joseph
 tags:
     - Child Welfare
     - Child Abuse
     - Bengaluru
-    - Custody
+    - Child Custody
     - Notable Incidents
 
 ---
