@@ -62,8 +62,10 @@ collections:
         field: date
         pattern: \d{4}
     preview_path: "incidents{{fields.slug}}"
-    media_folder: static/img/incidents
-    public_folder: /img/incidents
+    # Leading slash = repo root. Without it, collection `path` makes media_folder
+    # relative to the entry (e.g. incidents/2026/static/img/incidents/...).
+    media_folder: "/static/img/incidents"
+    public_folder: "/img/incidents"
     fields:
       - { label: Title, name: title, widget: string }
       - label: Date
@@ -94,8 +96,8 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}}"
     preview_path: "laws{{fields.slug}}"
-    media_folder: static/img/laws
-    public_folder: /img/laws
+    media_folder: "/static/img/laws"
+    public_folder: "/img/laws"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Description, name: description, widget: text }
