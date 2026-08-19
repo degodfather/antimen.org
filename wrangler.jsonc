@@ -1,12 +1,15 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "antimen-org",
+  "main": "workers/cms-oauth.js",
   "compatibility_date": "2026-05-27",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "build"
+    "directory": "build",
+    // Only OAuth routes need the Worker. Everything else is served from the Docusaurus build.
+    "run_worker_first": ["/auth", "/auth/", "/callback", "/callback/"]
   },
   "compatibility_flags": [
     "nodejs_compat"

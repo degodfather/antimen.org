@@ -1,0 +1,129 @@
+# Decap CMS configuration for antimen.org
+#
+# Local editing:
+#   1. npm start
+#   2. npm run cms          # local git proxy on port 8082
+#   3. Open http://localhost:3000/admin/
+#
+# Production login uses GitHub OAuth on this site (/auth and /callback).
+# One-time setup:
+#   1. Create a GitHub OAuth App: https://github.com/settings/applications/new
+#   2. Homepage URL: https://antimen.org
+#   3. Authorization callback URL: https://antimen.org/callback
+#   4. npx wrangler secret put GITHUB_OAUTH_ID
+#   5. npx wrangler secret put GITHUB_OAUTH_SECRET
+
+backend:
+  name: github
+  repo: degodfather/antimen.org
+  branch: main
+  base_url: https://antimen.org
+  auth_endpoint: auth
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "Upload “{{path}}”"
+    deleteMedia: "Delete “{{path}}”"
+
+local_backend:
+  url: http://localhost:8082/api/v1
+
+site_url: https://antimen.org
+display_url: https://antimen.org
+logo_url: /img/antimen_logo_transparent.png
+show_preview_links: false
+
+media_folder: static/img
+public_folder: /img
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: incidents
+    label: Incidents
+    label_singular: Incident
+    folder: incidents
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    path: "{{year}}/{{slug}}"
+    slug: "{{slug}}"
+    nested:
+      depth: 2
+      subfolders: false
+    summary: "{{dirname}} — {{title}}"
+    sortable_fields: ["date", "title", "commit_date"]
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+    preview_path: "incidents{{fields.slug}}"
+    media_folder: static/img/incidents
+    public_folder: /img/incidents
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: Date
+        name: date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+      - { label: Description, name: description, widget: text }
+      - { label: Excerpt, name: excerpt, widget: text, required: false }
+      - { label: Image, name: image, widget: image, required: false }
+      - label: Slug
+        name: slug
+        widget: string
+        required: false
+        hint: "URL path, e.g. /2026/short-title/"
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: laws
+    label: Laws
+    label_singular: Law
+    folder: laws
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    preview_path: "laws{{fields.slug}}"
+    media_folder: static/img/laws
+    public_folder: /img/laws
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Slug
+        name: slug
+        widget: string
+        required: false
+        hint: "URL path, e.g. /498A/"
+      - { label: Sidebar position, name: sidebar_position, widget: number, required: false, value_type: int }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: myths
+    label: Myths
+    label_singular: Myth
+    folder: myths
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    preview_path: "myths{{fields.slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Slug
+        name: slug
+        widget: string
+        required: false
+        hint: "Use / for the myths landing page."
+      - { label: Body, name: body, widget: markdown }
