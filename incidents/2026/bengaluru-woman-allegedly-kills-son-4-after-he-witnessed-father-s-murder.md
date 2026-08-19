@@ -19,7 +19,7 @@ image: /img/incidents/bengaluru-double-murder-arrests-1-.webp
 slug: bengaluru-woman-allegedly-kills-son-4-after-he-witnessed-fathers-murder
 author: Arun Joseph
 ---
-
+![](/img/incidents/bengaluru-double-murder-arrests-1-.webp)
 
 **Bengaluru:** A 38-year-old man and his four-year-old son were found dead at their home in Bengaluru on Monday morning in a case police are investigating as a planned murder.
 
