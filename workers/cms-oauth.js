@@ -142,7 +142,11 @@ function isPrivateRepo(env) {
 }
 
 function callbackScriptResponse(status, payload) {
-	const encoded = JSON.stringify(payload).replace(/</g, "\\u003c");
+	// JSON.stringify the whole postMessage payload so token JSON quotes
+	// cannot break out of the generated JavaScript string.
+	const messageLiteral = JSON.stringify(
+		`authorization:github:${status}:${JSON.stringify(payload)}`,
+	).replace(/</g, "\\u003c");
 	const html = `<!doctype html>
 <html lang="en">
 	<head>
@@ -151,10 +155,7 @@ function callbackScriptResponse(status, payload) {
 		<script>
 			(function () {
 				function receiveMessage(message) {
-					window.opener.postMessage(
-						"authorization:github:${status}:${encoded}",
-						message.origin
-					);
+					window.opener.postMessage(${messageLiteral}, message.origin);
 					window.removeEventListener("message", receiveMessage, false);
 				}
 				window.addEventListener("message", receiveMessage, false);
